@@ -5,14 +5,14 @@ const district = `B-Baria`
 
 // console.log(thana)
 
-
+// array is mutable - > you can chnage array element  
 const numbers = [54, 98, 78, 21, 22]
 // console.log(numbers.length)
 console.log(numbers)
 numbers[1] = 12;
 console.log(numbers)
 
-
+// string is immutable -> not changeable 
 const capital = 'Dhaka'
 console.log(capital.length)
 console.log(capital[2])
