@@ -10,13 +10,18 @@ const mobile = {
 // for of : array 
 // for in : Object
 for (const prop in mobile) {
-    console.log(prop)
-    console.log(mobile[prop])
+    // console.log(prop)
+    // console.log(mobile[prop])
 }
 
 const keys = Object.keys(mobile)
-console.log(keys)
+// console.log(keys)
 
 for (const key of keys) {
     console.log(key, ':', mobile[key])
 }
+
+
+
+
+let ddk = ['a','b','c']
